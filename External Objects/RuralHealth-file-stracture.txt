@@ -1,0 +1,21 @@
+RuralHealth-MERN/
+│
+├── backend/                 # Node.js + Express backend
+│   ├── index.js             # Express server entry point
+│   ├── routes/agent.js      # API routes for agents
+│   ├── controllers/agentController.js  # Handles Nova API calls
+│   ├── utils/novaClient.js  # Nova API client wrapper
+│   └── package.json
+│
+├── frontend/                # React frontend
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── ChatInput.js
+│   │   │   └── ChatWindow.js
+│   │   └── api.js           # API calls to backend
+│   ├── public/
+│   └── package.json
+│
+├── .gitignore
+└── README.md
